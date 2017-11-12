@@ -1,0 +1,12 @@
+  326  nano cli.md
+  327  cat cli.md
+  328  mkdir notes
+  329  cd notes
+  330  mv ../cli.md .
+  331  cp cli.md cli-2.md
+  332  ls
+  333  rm cli.md
+  334  mv cli-2.md cli.md
+  335  cd ..
+  336  rm -rf notes
+  337  history | tail -n 12 > cli_history

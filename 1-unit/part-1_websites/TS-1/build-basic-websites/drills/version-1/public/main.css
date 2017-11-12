@@ -1,0 +1,138 @@
+/* Resets */
+
+* {
+margin: 0;
+padding: 0;
+}
+
+/* Global ***************************************** */
+
+body {
+    font-family: palatino, "Times New Roman", serif;
+    margin: 0 auto;
+    width: 1140px;
+    background-color: #0E0E0E;
+}
+
+a {
+text-decoration: none;
+}
+
+/* Header ***************************************** */
+body, .nav-links li a {
+    color: #B7B2AE;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    padding: 0 6rem;
+    background-color: #333;
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-name {
+    font-size: 2.5rem;
+}
+
+.tagline {
+    font-size: .85rem;
+}
+
+nav ul {
+    display: flex;
+    width: 400px;
+    height: 55px;
+    background-color: #232323;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 auto;
+}
+
+.nav-links li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: .75rem;
+}
+
+header, footer {
+    background-color: #333;
+}
+
+
+/* Main Content ***************************************** */
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #FFFFFF;
+    padding: 2rem 6rem;
+}
+
+.main-content .media {
+    width: 948px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.large-image {
+    margin-left: 1rem;
+    background-color: #ccc;
+}
+
+.top-stories {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    height: 325px;
+    margin: 3rem auto;
+}
+
+.top-stories  section h2 {
+    font-size: 1rem;
+    color: #979797;
+    margin-bottom: 1rem;
+}
+.top-stories section figure img{
+    float: left;
+    margin: 0 1rem .5rem 0;
+}
+
+.top-stories section {
+    width: 30%;
+    max-height: 25px;
+    font-size: 1rem;
+}
+
+.top-stories section .read-more a {
+    margin: 1rem 0 0 0;
+    float: right;
+    color: #F4AC3F;
+    list-style-type: none;
+}
+
+/* Footer ***************************************** */
+
+footer {
+    height: 8vh;
+    padding-left: 30px;
+}
+
+footer .copyright {
+    padding: 1rem 4rem;
+    font-size: .85rem;
+}

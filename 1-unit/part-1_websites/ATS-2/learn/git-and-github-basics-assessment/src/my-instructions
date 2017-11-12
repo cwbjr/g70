@@ -1,0 +1,14 @@
+  228  cd ../..
+  229  mkdir git-and-github
+  230  cd git-and-github
+  231  git init
+  232  touch readme.md ignore_me.txt .gitignore
+  233  echo ignore_me.txt > .gitignore
+  234  git status
+  235  git add .gitignore
+  236  git commit -m "added dot gitignore"
+  237  git add .
+  238  git commit -m "adding the rest"
+  239  git remote add origin https://github.com/cwbjr/gaghub.git
+  240  git push -u origin master
+  241  cd ../git-and-github-basics-assessment/src

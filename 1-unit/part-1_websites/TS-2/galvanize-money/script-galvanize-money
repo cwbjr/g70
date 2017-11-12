@@ -1,0 +1,18 @@
+# !/bin/bash
+
+echo "Paste Github Repo: "
+read repo
+git clone $repo;
+cd galvanize-money/drills/version-1;
+npm install;
+npm test;
+cd ../version-2;
+npm install;
+npm test;
+cd ../version-3;
+npm install;
+npm test;
+cd ..;
+cd ..;
+cd ..;
+rm -rf galvanize-money

@@ -1,0 +1,11 @@
+#jumboWho, #jumboWhat, #jumboHow {
+  display: none;
+}
+
+html, body {
+  margin: 20px;
+}
+
+img {
+  max-height: 50px;
+}

@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Sedgwick+Ave+Display');
+
+body {
+    /*background-color: #A39C83;*/
+    background-color: red;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+.grizzly {
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.containment {
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 60rem;
+    max-height: 60rem;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    padding: 0 3rem;
+    background-color: #996633;
+}
+
+.top-header .header-word-mark {
+    color: #ffcc99;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 3rem;
+}
+
+.top-header .header-nav-bar {
+    font-size: 1.15rem;
+    width: 30rem;
+}
+
+.top-header .header-nav-bar .header-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-header .header-nav-bar .header-nav .nav-buttons{
+    display: inline-block;
+}
+
+.header-nav, .footer-nav, .footer-nav .description, .footer-nav .contact-directly, .footer-nav .instagram-pics, .footer-nav .empty  {
+    list-style: none;
+}
+
+.header-nav li a, .footer-nav li a, .main-header p a, .footer-nav .footer-content a {
+    text-decoration: none;
+    color: #000;
+}
+
+main .main-header, main .main-header button, .main-header .main-word-mark {
+    z-index: 1;
+}
+
+main .main-header {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    height:25rem;
+    font-size: 1.5rem;
+}
+
+main .main-header img {
+    opacity: 0.25;
+    position: absolute;
+}
+
+.main-header p.welcome-to {
+    font-size: 3rem;
+}
+
+main .main-header button {
+    height: 75px;
+    width: 300px;
+    background-color: #bb9966;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+    border-radius: 20px;
+}
+
+.main-header .main-word-mark {
+    /*margin: 0 auto;*/
+    flex-direction: column;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 4rem;
+}
+
+.grizzly {
+    color: #ffcc99;
+}
+
+.info-mixer {
+    padding: 1rem 3rem;
+    height: 10rem;
+    background-color: #996633;
+    position: relative;
+}
+
+.top-wild {
+    background-color: #996633;
+    position: relative;
+}
+
+.info-mixer .footer-nav .footer-content .footer-content-ul {
+    height: 140px;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-mixer nav .footer-nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.info-mixer .footer-nav .footer-content .footer-content-ul h3 {
+    padding-bottom: .5rem;
+}
+
+.info-mixer .footer-nav .instagram h3 {
+    padding-bottom: .5rem;
+}
+
+.legal-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    height: 2.5rem;
+    width: 60rem;
+    background-color: #996633;
+    padding: 0 3rem;
+    border-top: .125rem solid #bb9966;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+}
+
+.legal-bar p {
+    margin-top: .125rem;
+    font-size: .85rem;
+    padding-top: .5rem;
+}
+
+.wild {
+    position: absolute;
+    left: 0;
+}
+
+/* menu.html*/
+
+.site-content, .food-item-grid, .food-item {
+    box-sizing: border-box;
+}
+
+.site-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    background-color: #A29771;
+}
+
+.site-content__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-image: url(https://picsum.photos/960/200);
+    background-color: tan;
+}
+
+.site-content .site-content__header h2 {
+    font-size: 3rem;
+}
+
+.site-content .food-item-grid {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    width: 775px;
+    height: 400px;
+    margin: auto;
+    padding-top: 3rem;
+}
+
+.food-item {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    width: 300px;
+    margin: 30px 0 0 30px;
+}
+
+.food-item p {
+    padding-right: 80px;
+}

@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "ts-1-drill",
+    "ts-1a": "ts-1-drill",
+    "wild": "ts-1-drill"
+  }
+}

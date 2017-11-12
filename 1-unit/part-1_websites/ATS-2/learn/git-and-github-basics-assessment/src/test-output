@@ -1,0 +1,7 @@
+
+> cli@1.0.0 test /Users/cjr/galvanize/part-1_websites/ATS-2/learn/git-and-github-basics-assessment
+> mocha --reporter min
+
+[2J[1;3H
+  15 passing (4ms)
+

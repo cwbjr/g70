@@ -1,0 +1,17 @@
+{
+  "name": "galvanize-money",
+  "version": "0.1.0",
+  "description": "Basic programming assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "assessment"
+  ],
+  "author": "Kyle Coberly",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
+}

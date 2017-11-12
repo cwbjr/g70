@@ -1,0 +1,20 @@
+  847  cd ..
+  848  ls
+  849  rm -rf git-assessment-pull-example
+  850  ls
+  851  git clone https://github.com/cwbjr/git-assessment-pull-example.git
+  852  cd git-assessment-pull-example
+  853  vim styles.css
+  854  git add styles.css
+  855  git status
+  856  git commit -m "changed h1 color"
+  857  git push origin master
+  858  git pull origin master
+  859  git remote -v
+  860  git remote set-url origin git@github.com:baker-marlena/Im-so-broken.git
+  861  git remote rm origin
+  862  git remote add origin https://github.com/cwbjr/git-assessment-pull-example.git
+  863  vim index.html
+  864  git add .
+  865  git commit -m "update index"
+  866  git push origin master

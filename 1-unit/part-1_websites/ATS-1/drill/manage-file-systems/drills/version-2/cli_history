@@ -1,0 +1,12 @@
+   19  mkdir site
+   20  cd site
+   21  touch index.html
+   22  mkdir pages
+   23  atom site
+   24  mv pages/about.html .
+   25* ls
+   26* ls galvanize
+   27  ls pages
+   28  rm -rf pages
+   29  cd ..
+   30  rm -rf site

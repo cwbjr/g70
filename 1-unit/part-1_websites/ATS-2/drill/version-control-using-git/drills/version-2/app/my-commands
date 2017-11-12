@@ -1,0 +1,10 @@
+  808  git init
+  809  git add index.html assets/styles.css
+  810  git status
+  811  git commit -m "initial commit"
+  812  git remote add origin https://github.com/cwbjr/AS-2bnewrepo.git
+  813  git push origin master
+  814  git add -A
+  815  git commit -m "stage ALL files"
+  816  git push origin master
+  817  git pull origin master

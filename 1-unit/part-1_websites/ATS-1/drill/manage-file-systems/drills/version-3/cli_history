@@ -1,0 +1,12 @@
+   49  rm -r app
+   50  touch install.sh
+   51  mkdir app
+   52  cd app
+   53  mkdir bin
+   54  mv ../install.sh bin
+   55  cp bin/install.sh bin/install.sh.backup
+   56  rm -f bin/*
+   57  rm -r bin
+   58  ls
+   59  cd ..
+   60  rm -r app

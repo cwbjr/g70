@@ -1,0 +1,3 @@
+[submodule "practice/complete-example/git-practice-complete-example"]
+	path = practice/complete-example/git-practice-complete-example
+	url = git@github.com:gSchool/git-practice-complete-example.git

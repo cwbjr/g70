@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    justify-content:center;
+    background-color: pink;
+    height: 300px;
+}
+
+.main-logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: grey;
+    width: 900px;
+    height: 150px;
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}

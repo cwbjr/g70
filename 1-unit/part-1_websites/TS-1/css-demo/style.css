@@ -1,0 +1,40 @@
+/* Resets */
+
+* {
+margin: 0;
+padding: 0;
+}
+
+a {
+text-decoration: none;
+}
+
+figure {
+    float: left;
+    margin-right: 1rem;
+}
+
+/* Global styles */
+
+body {
+font-family: palatino, serif;
+/*padding: 2rem 4rem;*/
+}
+
+/* Features and benefits */
+
+.feature-benefits {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-bottom: 2rem;
+  /*position: absolute;*/
+
+}
+
+.feature-benefits p {
+    margin-right: .95rem;
+    line-height: 1.25rem;
+    text-align: left;
+    /*position: absolute;*/
+}

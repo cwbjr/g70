@@ -1,0 +1,15 @@
+  672  take git-drill-1
+  673  git init
+  674  touch readme.md index.html style.css
+  675  git remote add origin https://github.com/cwbjr/AS-2newrepo.git
+  676  git add index.html
+  677  git status
+  678  git commit -m "initial commit"
+  679  vim readme.md
+  680  git add .
+  681  git reset
+  682  touch app.js
+  683  git add .
+  684  git commit -m "added gif"
+  685  git log
+  686  git push origin master

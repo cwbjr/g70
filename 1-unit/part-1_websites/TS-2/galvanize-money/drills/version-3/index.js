@@ -1,30 +1,30 @@
 // Your code here
 
 var register = {
-  Transactions: []
+  transactions: []
 };
 
-function addTransaction(Transaction) {
-  register.Transactions.push(Transaction);
+function addTransaction(transaction) {
+  register.transactions.push(transaction);
 }
 
 function reset() {
-	register.Transactions = [];
+	register.transactions = [];
 }
 
 function getTransactionsBySalesperson(cashierName) {
 	var salesTransactions = [];
-		for (let i = 0; i < register.Transactions.length; i++) {
-			var getName = register.Transactions[i].cashier;
+		for (let i = 0; i < register.transactions.length; i++) {
+			var getName = register.transactions[i].cashier;
 				if (cashierName === getName) {
-					salesTransactions.push(register.Transactions[i].items);
+					salesTransactions.push(register.transactions[i]);
 				}
 		}
 	return salesTransactions;
 }
 
 function removeLastTransaction() {
-	register.Transactions.pop();
+	register.transactions.pop();
 }
 
 module.exports = {

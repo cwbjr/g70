@@ -14,12 +14,12 @@ function reset() {
 
 function getTransactionsBySalesperson(cashierName) {
 	var salesTransactions = [];
-		for (let i = 0; i < register.transactions.length; i++) {
-			var getName = register.transactions[i].cashier;
-				if (cashierName === getName) {
-					salesTransactions.push(register.transactions[i]);
-				}
+	for (let i = 0; i < register.transactions.length; i++) {
+		var getName = register.transactions[i].cashier;
+		if (cashierName === getName) {
+			salesTransactions.push(register.transactions[i]);
 		}
+	}
 	return salesTransactions;
 }
 

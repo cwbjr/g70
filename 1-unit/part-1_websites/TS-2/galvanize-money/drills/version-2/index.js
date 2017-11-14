@@ -11,7 +11,7 @@ function addTransaction(transaction) {
 function reset() {
 	register.transactions = [];
 }
-// indention not translating to github
+
 function countSalesOfType(itemType) {
   var smallItemType = itemType.toLowerCase();
   for (var i = 0; i < register.transactions.length; i++) {

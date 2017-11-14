@@ -1,11 +1,11 @@
 // Your code here
 
 var register = {
-  transactions: []
+	transactions: []
 };
 
 function addTransaction(transaction) {
-  register.transactions.push(transaction);
+	register.transactions.push(transaction);
 }
 
 function reset() {

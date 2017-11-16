@@ -14,16 +14,18 @@ function reset() {
 }
 
 function countSalesOfType(itemType) {
+    var quantityTotal = 0;
     var smallItemType = itemType.toLowerCase();
     for (var i = 0; i < register.transactions.length; i++) {
         for (var j = 0; j < register.transactions[i].items.length; j++) {
             var itemDescription = register.transactions[i].items[j].description.toLowerCase();
             if (smallItemType === itemDescription) {
                 var itemQuantity = register.transactions[i].items[j].quantity;
-                return itemQuantity;
+                quantityTotal += itemQuantity;
             }
         }
     }
+    return quantityTotal;
 }
 
 function getTransactionsBetween(transaction1, transaction2) {

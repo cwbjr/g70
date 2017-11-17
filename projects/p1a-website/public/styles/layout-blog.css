@@ -1,0 +1,31 @@
+@supports (display: grid) {
+
+    .page {
+      width: 100%;
+      margin: 0 auto;
+      display: grid;
+      grid-column-gap: 20px;
+      grid-row-gap: 20px;
+      gird-template-columns: 2fr 1fr;
+      grid-template-rows: 1fr auto;
+      grid-template-areas:
+        "header header"
+        "main nav";
+    }
+
+    .page-header {
+        grid-area: header;
+        background-color: #3498db;
+    }
+
+    .page-nav {
+        grid-area: nav;
+        background-color: #f39c12;
+    }
+
+    .page-content {
+        grid-area: main;
+        background-color: #ecf0f1;
+    }
+
+}

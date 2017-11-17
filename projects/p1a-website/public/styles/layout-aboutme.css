@@ -1,0 +1,32 @@
+@supports (display: grid) {
+
+    .page {
+      width: 100%;
+      margin: 0 auto;
+      display: grid;
+      grid-column-gap: 20px;
+      grid-row-gap: 20px;
+      gird-template-columns: 2fr 1fr;
+      grid-template-rows: 1fr auto;
+      grid-template-areas:
+        "header header"
+        "main nav";
+    }
+
+    .page-header {
+        grid-area: header;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+    .page-nav {
+        grid-area: nav;
+    }
+
+    .page-content {
+        grid-area: main;
+    }
+
+}

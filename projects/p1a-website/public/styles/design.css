@@ -1,21 +1,52 @@
 .img-circle {
     border-radius: 50%;
 }
+
 body {
     font-family: 'Lato', sans-serif;
     color: #602d0a;
     background: #F8F8FF;
     -webkit-font-smoothing: antialiased;
 }
+
 a {
     text-decoration: none;
     color: #602d0a;
 }
-p > a:hover{
+
+p>a:hover {
     color: #ff8c00;
-    text-decoration:  underline;
+    text-decoration: underline;
 }
+
 ul {
-    padding:0;
+    padding: 0;
     list-style: none;
+}
+
+.page-header, .page-nav, .page-content {
+    padding: 2rem;
+}
+
+.img-circle {
+    margin-right: 25px;
+}
+
+.nav-list-links, .nav-blog-links {
+    padding-left: 10px;
+}
+
+.blog-post-header {
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.blog-post-header p {
+    align-self: flex-end;
+}
+
+.content-blog-post {
+    margin-bottom: 60px;
 }

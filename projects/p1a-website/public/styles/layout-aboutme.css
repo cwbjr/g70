@@ -6,11 +6,13 @@
       display: grid;
       grid-column-gap: 20px;
       grid-row-gap: 20px;
-      gird-template-columns: 2fr 1fr;
-      grid-template-rows: 1fr auto;
+      gird-template-columns: 1fr;
+      grid-template-rows: 1fr 20px auto 60px;
       grid-template-areas:
-        "header header"
-        "main nav";
+        "header"
+        "nav"
+        "main"
+        "footer";
     }
 
     .page-header {
@@ -19,14 +21,22 @@
         justify-content: space-between;
     }
 
-
-
-    .page-nav {
+    .page-nav-top {
         grid-area: nav;
+        padding: 10px;
+    }
+
+    .nav-list {
+        display: flex;
+        justify-content: space-around;
     }
 
     .page-content {
         grid-area: main;
+    }
+
+    .page-footer {
+        grid-area: footer;
     }
 
 }

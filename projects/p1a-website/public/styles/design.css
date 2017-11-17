@@ -42,10 +42,18 @@ ul {
     background-color: rgba(243, 156, 18, 0.65);
 }
 
+.page-nav-top {
+    padding: 10px;
+    background-color: rgba(243, 156, 18, 0.65);
+}
+
 .page-content {
     background-color: #ecf0f1;
 }
 
+.page-footer {
+    background-color: rgba(243, 156, 18, 0.65);
+}
 
 /* Page Header */
 .page-header, .page-nav, .page-content {

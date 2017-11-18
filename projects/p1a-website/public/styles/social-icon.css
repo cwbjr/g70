@@ -1,9 +1,10 @@
 .footer-social-header {
-    font-size: 1.4em;
+    font-size: 1.2em;
+    margin: 15px 0;
 }
 
 .footer-social-icons {
-    width: 350px;
+    width: 230px;
     display: block;
 }
 
@@ -27,80 +28,57 @@ ul.social-icons {
 
 .fa-facebook {
     padding: 10px 14px;
-    -o-transition: .2s;
-    -ms-transition: .2s;
-    -moz-transition: .2s;
-    -webkit-transition: .2s;
-    transition: .2s;
-    background-color: #F8F8FF;
 }
 
 .fa-facebook:hover {
     background-color: #3d5b99;
-    border-radius: 50%;
-    color: #fff;
 }
 
 .fa-twitter {
     padding: 10px 12px;
-    -o-transition: .2s;
-    -ms-transition: .2s;
-    -moz-transition: .2s;
-    -webkit-transition: .2s;
-    transition: .2s;
-    background-color: #F8F8FF;
 }
 
 .fa-twitter:hover {
     background-color: #00aced;
-    border-radius: 50%;
-    color: #fff;
 }
 
 .fa-youtube {
     padding: 10px 14px;
-    -o-transition: .2s;
-    -ms-transition: .2s;
-    -moz-transition: .2s;
-    -webkit-transition: .2s;
-    transition: .2s;
-    background-color: #F8F8FF;
 }
 
 .fa-youtube:hover {
     background-color: #e64a41;
-    border-radius: 50%;
-    color: #fff;
+}
+
+.fa-github-square {
+    background-color: #e25714;
 }
 
 .fa-linkedin {
     padding: 10px 14px;
-    -o-transition: .2s;
-    -ms-transition: .2s;
-    -moz-transition: .2s;
-    -webkit-transition: .2s;
-    transition: .2s;
-    background-color: #F8F8FF;
 }
 
 .fa-linkedin:hover {
     background-color: #0073a4;
-    border-radius: 50%;
-    color: #fff;
 }
 
-.fa-google-plus {
-    padding: 10px 9px;
+.fa-github {
+    padding: 10px 12px;
+}
+
+.fa-github:hover {
+    background-color: #e25714;
+}
+
+.fa-github, .fa-linkedin, .fa-youtube, .fa-twitter, .fa-facebook {
     -o-transition: .2s;
     -ms-transition: .2s;
     -moz-transition: .2s;
     -webkit-transition: .2s;
     transition: .2s;
-    background-color: #F8F8FF;
 }
 
-.fa-google-plus:hover {
-    background-color: #e25714;
+.fa-github:hover, .fa-linkedin:hover, .fa-youtube:hover, .fa-twitter:hover, .fa-facebook:hover {
     border-radius: 50%;
     color: #fff;
 }

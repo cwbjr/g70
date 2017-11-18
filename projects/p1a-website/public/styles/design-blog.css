@@ -1,5 +1,6 @@
 .img-circle {
     border-radius: 50%;
+    border: 2px solid green;
 }
 
 body {
@@ -7,6 +8,11 @@ body {
     color: #602d0a;
     background: #F8F8FF;
     -webkit-font-smoothing: antialiased;
+}
+
+.page {
+    max-width: 1200px;
+    min-width: 960px;
 }
 
 a {
@@ -30,11 +36,14 @@ ul {
 
 .active-page {
     font-size: 1.5rem;
-    border-top: 4px solid gray;
-    border-bottom: 4px solid gray;
+    border-top: 4px solid rgb(68, 131, 68);
+    border-bottom: 4px solid rgb(68, 131, 68);
 }
 
 .page-header {
+    background-image: url(/media/images/129.jpg);
+    background-size: 1200px 370px;
+    background-repeat: no-repeat;
     background-color: rgba(36, 141, 215, 0.65);
 }
 
@@ -50,9 +59,8 @@ ul {
     background-color: rgba(243, 156, 18, 0.65);
 }
 
-/* Page Header */
 .page-nav, .page-content {
-    padding: 2rem;
+    padding: 32px 10px 32px 32px;
 }
 
 .page-header {
@@ -103,8 +111,17 @@ ul {
 
 .content-blog-post .middle-blog {
     border-left: 5px solid tan;
+    padding: 10px;
 }
 
 code {
     background-color: lightgray;
+}
+
+.gradient {
+  background-image: linear-gradient(to right, #fff, #ecf0f1);
+}
+
+.small-copy {
+    padding-top: 50px;
 }

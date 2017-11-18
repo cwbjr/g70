@@ -10,6 +10,11 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+.page {
+    max-width: 1200px;
+    min-width: 960px;
+}
+
 a {
     text-decoration: none;
     color: #602d0a;
@@ -29,10 +34,14 @@ ul {
     list-style: none;
 }
 
+.banner {
+    margin: auto;
+}
+
 .active-page {
     font-size: 1.5rem;
-    border-top: 4px solid gray;
-    border-bottom: 4px solid gray;
+    border-top: 4px solid rgb(68, 131, 68);
+    border-bottom: 4px solid rgb(68, 131, 68);
     padding: 0 30px;
 }
 
@@ -45,6 +54,9 @@ ul {
 }
 
 .page-header {
+    background-image: url(/media/images/129.jpg);
+    background-size: 1200px 370px;
+    background-repeat: no-repeat;
     background-color: rgba(36, 141, 215, 0.65);
 }
 
@@ -68,6 +80,10 @@ ul {
     padding-top: 25px;
 }
 
+.content-blog-post {
+    padding: 40px;
+}
+
 .page-footer {
     background-color: rgba(243, 156, 18, 0.65);
 }
@@ -83,4 +99,17 @@ ul {
 .nav-list-links:hover {
     background-color: #F8F8FF;
     border-radius: 5px;
+}
+
+.page-footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+small {
+    index: 1;
+    align-self: flex-end;
+    align-content: center;
+    margin: 0 0 15px 20px;
 }

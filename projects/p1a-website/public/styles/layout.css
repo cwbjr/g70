@@ -26,8 +26,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        /*display: flex;
-        flex-grow: 1;*/
     }
 
     .nav-list {
@@ -37,6 +35,14 @@
 
     .page-content {
         grid-area: main;
+    }
+
+    .page-content {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        " banner content"
     }
 
     .page-footer {

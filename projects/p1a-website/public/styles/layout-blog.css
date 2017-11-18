@@ -21,10 +21,23 @@
 
     .page-nav {
         grid-area: nav;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-posts {
+        order: 1;
+    }
+
+    .footer-social-icons {
+        order: 2;
+    }
+
+    .small-copy {
+        order: 3;
+        align-self: center;
     }
 
     .page-content {
         grid-area: main;
     }
-
-}

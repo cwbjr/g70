@@ -5,7 +5,6 @@
 .footer-social-icons {
     width: 350px;
     display: block;
-    margin: 0 auto;
 }
 
 .footer-social-list .social-icon {
@@ -16,24 +15,23 @@ ul.social-icons {
     margin-top: 10px;
 }
 
-.social-icons li {
+.footer-social-icons li {
     vertical-align: top;
     display: inline;
-    height: 100px;
+    height: 50px;
 }
 
-.social-icons a {
-    color: red;
+.social-icon a {
     text-decoration: none;
 }
 
 .fa-facebook {
     padding: 10px 14px;
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    transition: .5s;
+    -o-transition: .2s;
+    -ms-transition: .2s;
+    -moz-transition: .2s;
+    -webkit-transition: .2s;
+    transition: .2s;
     background-color: #F8F8FF;
 }
 
@@ -45,11 +43,11 @@ ul.social-icons {
 
 .fa-twitter {
     padding: 10px 12px;
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    transition: .5s;
+    -o-transition: .2s;
+    -ms-transition: .2s;
+    -moz-transition: .2s;
+    -webkit-transition: .2s;
+    transition: .2s;
     background-color: #F8F8FF;
 }
 
@@ -61,11 +59,11 @@ ul.social-icons {
 
 .fa-youtube {
     padding: 10px 14px;
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    transition: .5s;
+    -o-transition: .2s;
+    -ms-transition: .2s;
+    -moz-transition: .2s;
+    -webkit-transition: .2s;
+    transition: .2s;
     background-color: #F8F8FF;
 }
 
@@ -77,11 +75,11 @@ ul.social-icons {
 
 .fa-linkedin {
     padding: 10px 14px;
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    transition: .5s;
+    -o-transition: .2s;
+    -ms-transition: .2s;
+    -moz-transition: .2s;
+    -webkit-transition: .2s;
+    transition: .2s;
     background-color: #F8F8FF;
 }
 
@@ -93,11 +91,11 @@ ul.social-icons {
 
 .fa-google-plus {
     padding: 10px 9px;
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    transition: .5s;
+    -o-transition: .2s;
+    -ms-transition: .2s;
+    -moz-transition: .2s;
+    -webkit-transition: .2s;
+    transition: .2s;
     background-color: #F8F8FF;
 }
 

@@ -3,7 +3,7 @@ let add = document.getElementById('append')
 
 button.addEventListener('click', (e) => {
   add.innerText = ''
-  fetch('https://at-5a-heroku.firebaseapp.com/cake')
+  fetch('https://at-5a-heroku.firebaseapp.com')
   .then((res) => res.json())
   .then((data) => {
     data.forEach((item) => {

@@ -1,8 +1,5 @@
-// Your code here
-// Using 4 space TAB
-
 var register = {
-    transactions: []
+    transactions: [];
 };
 
 function addTransaction(transaction) {
@@ -29,7 +26,6 @@ function removeLastTransaction() {
 }
 
 module.exports = {
-    // Uncomment these as you define them
     register,
     addTransaction,
     getTransactionsBySalesperson,

@@ -1,11 +1,7 @@
-// Your code here
-
-
 var register = {
-        transactions: []
+        transactions: [];
     };
  
-// test used the word transactions for perameters.  I originally used myObject as the perameters.
 function addTransaction(transactions) {
     register.transactions.push(transactions);
  }
@@ -14,7 +10,6 @@ function reset() {
     register.transactions = [];
 }
 
-// Break-out with Cass was super helpful in understanding how the for-loop is working with this part.
 function getTotal(){
    var total = 0;
    
@@ -32,11 +27,7 @@ function getFormattedTotal() {
   return getTotal().toFixed(2);	
 }
 
-
-
-
 module.exports = {
-    // Uncomment these as you define them
     register,
     addTransaction,
     getTotal,
